@@ -5,7 +5,6 @@ module Data.Primitive.ByteArray.Offset
   , MutableByteArrayOffset(..)
   ) where
 
-import Control.Monad.Primitive (PrimMonad,PrimState)
 import Data.Primitive (ByteArray,MutableByteArray)
 
 -- | A byte array and an index into the array. The element
