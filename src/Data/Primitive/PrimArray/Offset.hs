@@ -41,13 +41,13 @@ import Data.Primitive (indexPrimArray,readPrimArray)
 -- | A primitive array and an index into the array.
 data PrimArrayOffset a = PrimArrayOffset
   { array :: {-# UNPACK #-} !(PrimArray a)
-  , index :: {-# UNPACK #-} !Int
+  , offset :: {-# UNPACK #-} !Int
   }
 
 -- | A mutable primitive array and an index into the array.
 data MutablePrimArrayOffset s a = MutablePrimArrayOffset
   { array :: {-# UNPACK #-} !(MutablePrimArray s a)
-  , index :: {-# UNPACK #-} !Int
+  , offset :: {-# UNPACK #-} !Int
   }
 
 -- | Recover the element in the primitive array.
