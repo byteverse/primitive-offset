@@ -2,6 +2,10 @@ cabal-version: 2.2
 name: primitive-offset
 version: 0.2.0.0
 synopsis: Types for offsets into unboxed arrays
+description:
+  Pair a typed or untyped primitive array with an offset.
+  This is useful for providing meaningful type signatures
+  when working with the foreign function interface.
 homepage: https://github.com/andrewthad/primitive-offset
 bug-reports: https://github.com/andrewthad/primitive-offset/issues
 license: BSD-3-Clause
