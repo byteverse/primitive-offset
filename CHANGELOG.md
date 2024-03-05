@@ -1,5 +1,11 @@
 # Revision history for primitive-element
 
-## 0.1.0.0 -- YYYY-mm-dd
+## 0.2.0.1 -- 2024-03-05
 
-* First version. Released on an unsuspecting world.
+* Update package metadata.
+
+## 0.2.0.0 -- 2019-05-30
+
+## 0.1.0.0 -- 2019-05-15
+
+* First version.
